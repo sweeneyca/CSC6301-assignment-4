@@ -9,15 +9,24 @@ Please make sure your program can be run on the command line and does NOT need a
 # Description
 This program reads a list of integer numbers from standard input,stores them in a LinkedList, sorts them in ascending order, andprints the sorted list.
 This program makes use of Java's Collections Framework to avoid reinventing commonly used data structures and algorithms:
- {@code LinkedList<Integer>} for dynamic storage instead of implementing a custom linked list</li>
- {@code Collections.sort()} for efficient sorting instead of writing a sorting algorithm</li>
- {@code Scanner} for input handling rather than manual input parsing</li>
+ {@code LinkedList<Integer>} for dynamic storage instead of implementing a custom linked list <br />
+ {@code Collections.sort()} for efficient sorting instead of writing a sorting algorithm <br />
+ {@code Scanner} for input handling rather than manual input parsing. <br />
 
 # Usage
-The program can be run from the command line by compiling it first:
+The program can be run from the command line by compiling it first: <br />
+    ```
     javac SortedLinkedList.java
-Then running using command:
+    ```
+    <br />
+Then running using command: <br />
+    ```
     java SortedLinkedList
+    ```
+    <br />
 
-To generate JavaDocs, use the command:
+To generate JavaDocs, use the command:<br />
+    ```
     javadoc -d doc SortedLinkedList.java
+    ```
+    <br />
