@@ -20,22 +20,22 @@ This program makes use of Java's Collections Framework to avoid reinventing comm
 
 # How to Run
 The program can be run from the command line by compiling it first: <br />
-    ```
-    javac SortedLinkedList.java
-    ```
-    <br />
-Then running using command: <br />
-    ```
-    java SortedLinkedList
-    ```
-    <br />
-Then follow program commands. <br />
+```
+javac SortedLinkedList.java
+```
+<br />
 
-To generate JavaDocs, use the command:<br />
-    ```
-    javadoc -d doc SortedLinkedList.java
-    ```
-    <br />
+Then run using this command: <br />
+```
+java SortedLinkedList
+```
+<br />
+
+To generate JavaDocs, use the command: <br />
+```
+javadoc -d doc SortedLinkedList.java
+```
+<br />
 
 # Dependencies
 Java 8 or later
